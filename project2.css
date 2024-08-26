@@ -133,7 +133,7 @@ button:active{
     #display {
         width : 90%;
         height: 30%;
-        text-align:left;
+        text-align:right;
         font-size: 4em; 
     }
     #keys{
