@@ -13,7 +13,7 @@ body{
     height: 100%;
 }
 #display{
-    width: 100%;
+    width: 95%;
     height: 40%;
     background-color: hsl(0, 0%, 0%);
     border: none;
@@ -132,6 +132,7 @@ button:active{
         height: 30%;
         font-size: 4em; 
         width: 90%;
+        text-align:right;
     }
     #keys{
         width: 100%;
@@ -143,7 +144,7 @@ button:active{
     width: 70%;
     border-radius: 50%;
     font-size: 1.7em;
-    text-align: center;
+    text-align: left;
     }
 }
 @media (max-height: 500px){
