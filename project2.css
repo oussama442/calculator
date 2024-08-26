@@ -132,7 +132,7 @@ button:active{
 @media (max-width: 600px){
     #display {
         height: 30%;
-        text-align:right;
+        text-align:left;
         font-size: 4em; 
     }
     #keys{
