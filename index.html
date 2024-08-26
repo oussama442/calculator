@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iphone calculator</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+   
+  <div id="calculator">
+    <input id="display" readonly>
+    <div id="keys">
+      <button onclick="cleardisplay()" class="specialkeys" id="AC">AC</button>
+      <button onclick="minusdisplay()" class="specialkeys">+/-</button>
+      <button onclick="percentage()" class="specialkeys">%</button>
+      <button onclick="appendtodisplay('/')" class="operation">/</button>
+      <button onclick="appendtodisplay('7')">7</button>
+      <button onclick="appendtodisplay('8')">8</button>
+      <button onclick="appendtodisplay('9')">9</button>
+      <button onclick="appendtodisplay('*')" class="operation">X</button>
+      <button onclick="appendtodisplay('4')">4</button>
+      <button onclick="appendtodisplay('5')">5</button>
+      <button onclick="appendtodisplay('6')">6</button>
+      <button onclick="appendtodisplay('-')" class="operation">-</button>
+      <button onclick="appendtodisplay('1')">1</button>
+      <button onclick="appendtodisplay('2')">2</button>
+      <button onclick="appendtodisplay('3')">3</button>
+      <button onclick="appendtodisplay('+')" class="operation">+</button>
+      <button onclick="appendtodisplay('0')" class="btn0">0</button>
+      <button onclick="appendtodisplay('.')">.</button>
+      <button onclick="calculate()" class="operation">=</button>
+    </div>
+  
+
+  <div id="more-btn">
+   <button onclick="appendtodisplay('')"> ( </button>
+   <button onclick="appendtodisplay('')"> ) </button>
+   <button onclick=""> mc </button>
+   <button onclick=""> m+ </button>
+   <button onclick=""> m- </button>
+   <button onclick=""> mr </button>
+   <button onclick=""> 2<sup><sup><sub>nd</sub></sup></sup></button>
+   <button onclick="ouss2()"> x<sup><sup><sub>2</sub></sup></sup></button>
+   <button onclick="ouss3()"> x<sup><sup><sub>3</sub></sup></sup></button>
+   <button onclick=""> x<sup><sup><sub>y</sub></sup></sup></button>
+   <button onclick="exp()"> e<sup><sup><sub>x</sub></sup></sup></button>
+   <button onclick="tenouss()"> 10<sup><sup><sub>x</sub></sup></sup></button>
+   <button onclick="oneforx()"> <sup><sub>1</sub></sup>/<sub><sup>x</sup></sub> </button>
+   <button onclick="sqrt2()"> <sup><sup><sub>2</sub></sup></sup>√x</button>
+   <button onclick="sqrt3()"> <sup><sup><sub>3</sub></sup></sup>√x </button>
+   <button onclick="sqrty()"> <sup><sup><sub>y</sub></sup></sup>√x </button>
+   <button onclick="ln()"> ln </button>
+   <button onclick="log10()"> log<sub><sup><sub>10</sub></sup></sub> </button>
+   <button onclick="factorial()"> x! </button>
+   <button onclick="sin()"> sin </button>
+   <button onclick="cos()"> cos </button>
+   <button onclick="tan()"> tan </button>
+   <button onclick="appendtodisplay('2.71828182846')"> e </button>
+   <button onclick=""> EE </button>
+   <button onclick=""> Rad </button>
+   <button onclick="sinh()"> sinh </button>
+   <button onclick="cosh()"> cosh </button>
+   <button onclick="tanh()"> tanh </button>
+   <button onclick="appendtodisplay('3.14159265359')"> π </button>
+   <button onclick=""> Rand </button>
+
+  </div>
+</div>
+<script src="project2.js"></script>
+</body>
+</html>
